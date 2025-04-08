@@ -2,23 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #1e293b;
   }
   header {
-    background: #ddd;
+    background: #f8fafc;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   nav {
-    background: #ccc;
+    margin: 0;
+    background: #f8fafc;
     text-align: center;
+    height: 30px;
   }
   nav a {
-    margin: 0 15px;
+    margin: 15px 15px;
     text-decoration: none;
     font-weight: bold;
+    padding: 30px;
+    color: #1e293b;
+  }
+  nav a:hover {
+    color: #f59e0b;
   }
   .section {
     padding: 20px;
